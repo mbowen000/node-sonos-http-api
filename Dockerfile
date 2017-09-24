@@ -1,3 +1,4 @@
 FROM node:6
 WORKDIR /usr/app
-COPY . .
+COPY . . 
+RUN npm install --silent --progress=false
